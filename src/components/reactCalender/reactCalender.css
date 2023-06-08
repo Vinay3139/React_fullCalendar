@@ -1,0 +1,119 @@
+.fc .fc-daygrid-event-harness{
+     /* background-color: green; */
+     color:white;
+     border-radius: 5px; 
+}
+
+.Typography{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 30%;
+    position: relative;
+    z-index: 4;
+    background: cadetblue;
+    color: white;
+    left: 37%;
+    bottom: 800px;
+    height: 253px;
+    border-radius: 5px;
+}
+
+.fc-direction-ltr .fc-daygrid-event.fc-event-end{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* .delete_Span{
+    background-color: green;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: inherit;
+} */
+
+.Input_Changes label{
+    margin-left: 46px;
+}
+
+.fc .fc-toolbar.fc-header-toolbar{
+    margin-top: 28px;
+}
+
+.Input_Changes input{
+    margin-left: 9px;
+    height: 25px;
+}
+
+.Input_Changes{
+    margin-right: 68px;
+}
+.main_wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 200px
+}
+
+.fc-button-yearGrid {
+    font-size: 20px;
+    color: #000000;
+  }
+
+table tr td{
+    border: 1px solid gray;
+    text-align: center;
+}  
+
+th{
+    border: 1px solid gray;
+}
+
+table{
+    width: 300px;
+}
+
+.table_Data{
+    width: 100%;
+    position: relative;
+    z-index: 4;
+    background: white;
+    color: black;
+    /* left: 37%; */
+    bottom: 1087px;
+    height: 1085px;
+}
+
+.table_Head{
+    display: flex;
+    justify-content: center;
+}
+
+.fc--button fc-button {
+    display: none;
+}
+
+.table_Head {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table_Head td, .table_Head th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table_Head tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .table_Head tr:hover {background-color: #ddd;}
+  
+  .table_Head th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .fc--button fc-button fc-button-primary :root{
+    display: none;
+  }
